@@ -1,0 +1,312 @@
+{
+  "rental_cars": [
+    {
+      "id": "001",
+      "make": "Toyota",
+      "model": "Camry",
+      "year": 2024,
+      "category": "Mid-size Sedan",
+      "types": ["Standard", "Hybrid"],
+      "rental_details": {
+        "daily_rate": {
+          "amount": 45,
+          "currency": "USD"
+        },
+        "weekly_rate": {
+          "amount": 280,
+          "currency": "USD"
+        },
+        "security_deposit": {
+          "amount": 200,
+          "currency": "USD"
+        },
+        "mileage": {
+          "daily_limit": 250,
+          "extra_mile_charge": 0.25
+        },
+        "fuel_policy": "Full to Full",
+        "passengers": 5,
+        "luggage_capacity": {
+          "suitcases": 2,
+          "carry_on": 2
+        },
+        "features": [
+          "Bluetooth",
+          "Backup Camera",
+          "USB Ports",
+          "Apple CarPlay/Android Auto"
+        ],
+        "transmission": "Automatic",
+        "air_conditioning": true
+      },
+      "image": "https://images.unsplash.com/photo-1621007947382-bb3c3994e3fb?auto=format&fit=crop&q=80",
+      "availability": {
+        "locations": ["Airport Terminal 1", "Downtown"],
+        "minimum_rental_period": "1 day",
+        "insurance_options": [
+          {
+            "type": "Basic",
+            "daily_rate": 15,
+            "coverage": "Collision damage"
+          },
+          {
+            "type": "Premium",
+            "daily_rate": 25,
+            "coverage": "Full coverage"
+          }
+        ]
+      }
+    },
+    {
+      "id": "002",
+      "make": "Nissan",
+      "model": "Versa",
+      "year": 2024,
+      "category": "Economy",
+      "types": ["Standard", "Electric"],
+      "rental_details": {
+        "daily_rate": {
+          "amount": 35,
+          "currency": "USD"
+        },
+        "weekly_rate": {
+          "amount": 210,
+          "currency": "USD"
+        },
+        "security_deposit": {
+          "amount": 150,
+          "currency": "USD"
+        },
+        "mileage": {
+          "daily_limit": 250,
+          "extra_mile_charge": 0.20
+        },
+        "fuel_policy": "Full to Full",
+        "passengers": 5,
+        "luggage_capacity": {
+          "suitcases": 1,
+          "carry_on": 2
+        },
+        "features": [
+          "Bluetooth",
+          "Backup Camera",
+          "USB Ports"
+        ],
+        "transmission": "Automatic",
+        "air_conditioning": true
+      },
+      "image": "https://images.unsplash.com/photo-1609521263047-f8f205293f24?auto=format&fit=crop&q=80",
+      "availability": {
+        "locations": ["Airport Terminal 2", "City Center"],
+        "minimum_rental_period": "1 day",
+        "insurance_options": [
+          {
+            "type": "Basic",
+            "daily_rate": 12,
+            "coverage": "Collision damage"
+          },
+          {
+            "type": "Premium",
+            "daily_rate": 20,
+            "coverage": "Full coverage"
+          }
+        ]
+      }
+    },
+    {
+      "id": "003",
+      "make": "Mercedes-Benz",
+      "model": "E-Class",
+      "year": 2024,
+      "category": "Luxury",
+      "types": ["Luxury", "Convertible"],
+      "rental_details": {
+        "daily_rate": {
+          "amount": 95,
+          "currency": "USD"
+        },
+        "weekly_rate": {
+          "amount": 590,
+          "currency": "USD"
+        },
+        "security_deposit": {
+          "amount": 500,
+          "currency": "USD"
+        },
+        "mileage": {
+          "daily_limit": 200,
+          "extra_mile_charge": 0.45
+        },
+        "fuel_policy": "Full to Full",
+        "passengers": 5,
+        "luggage_capacity": {
+          "suitcases": 3,
+          "carry_on": 2
+        },
+        "features": [
+          "Leather Seats",
+          "Navigation",
+          "Premium Sound",
+          "Heated Seats",
+          "Sunroof"
+        ],
+        "transmission": "Automatic",
+        "air_conditioning": true
+      },
+      "image": "https://images.unsplash.com/photo-1606664515524-ed2f786a0bd6?auto=format&fit=crop&q=80",
+      "availability": {
+        "locations": ["VIP Terminal", "Luxury Resort"],
+        "minimum_rental_period": "2 days",
+        "insurance_options": [
+          {
+            "type": "Basic",
+            "daily_rate": 30,
+            "coverage": "Collision damage"
+          },
+          {
+            "type": "Premium",
+            "daily_rate": 45,
+            "coverage": "Full coverage"
+          }
+        ]
+      }
+    },
+    {
+      "id": "004",
+      "make": "Toyota",
+      "model": "RAV4",
+      "year": 2024,
+      "category": "Compact SUV",
+      "types": ["Standard", "Hybrid"],
+      "rental_details": {
+        "daily_rate": {
+          "amount": 65,
+          "currency": "USD"
+        },
+        "weekly_rate": {
+          "amount": 390,
+          "currency": "USD"
+        },
+        "security_deposit": {
+          "amount": 250,
+          "currency": "USD"
+        },
+        "mileage": {
+          "daily_limit": 250,
+          "extra_mile_charge": 0.30
+        },
+        "fuel_policy": "Full to Full",
+        "passengers": 5,
+        "luggage_capacity": {
+          "suitcases": 3,
+          "carry_on": 3
+        },
+        "features": [
+          "All-Wheel Drive",
+          "Bluetooth",
+          "Navigation",
+          "Backup Camera"
+        ],
+        "transmission": "Automatic",
+        "air_conditioning": true
+      },
+      "image": "https://images.unsplash.com/photo-1616422285623-13ff0162193c?auto=format&fit=crop&q=80",
+      "availability": {
+        "locations": ["All Locations"],
+        "minimum_rental_period": "1 day",
+        "insurance_options": [
+          {
+            "type": "Basic",
+            "daily_rate": 20,
+            "coverage": "Collision damage"
+          },
+          {
+            "type": "Premium",
+            "daily_rate": 35,
+            "coverage": "Full coverage"
+          }
+        ]
+      }
+    },
+    {
+      "id": "005",
+      "make": "Chevrolet",
+      "model": "Suburban",
+      "year": 2024,
+      "category": "Full-size SUV",
+      "types": ["Standard", "Electric"],
+      "rental_details": {
+        "daily_rate": {
+          "amount": 85,
+          "currency": "USD"
+        },
+        "weekly_rate": {
+          "amount": 525,
+          "currency": "USD"
+        },
+        "security_deposit": {
+          "amount": 300,
+          "currency": "USD"
+        },
+        "mileage": {
+          "daily_limit": 250,
+          "extra_mile_charge": 0.35
+        },
+        "fuel_policy": "Full to Full",
+        "passengers": 8,
+        "luggage_capacity": {
+          "suitcases": 4,
+          "carry_on": 4
+        },
+        "features": [
+          "Third Row Seating",
+          "Navigation",
+          "Rear Entertainment",
+          "Trailer Hitch"
+        ],
+        "transmission": "Automatic",
+        "air_conditioning": true
+      },
+      "image": "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?auto=format&fit=crop&q=80",
+      "availability": {
+        "locations": ["Airport Terminal 1", "Suburban Locations"],
+        "minimum_rental_period": "1 day",
+        "insurance_options": [
+          {
+            "type": "Basic",
+            "daily_rate": 25,
+            "coverage": "Collision damage"
+          },
+          {
+            "type": "Premium",
+            "daily_rate": 40,
+            "coverage": "Full coverage"
+          }
+        ]
+      }
+    }
+  ],
+  "rental_policies": {
+    "age_requirements": {
+      "minimum_age": 21,
+      "young_driver_age": {
+        "range": "21-24",
+        "surcharge": 25
+      }
+    },
+    "required_documents": [
+      "Valid driver's license",
+      "Credit card in renter's name",
+      "Proof of insurance"
+    ],
+    "payment_methods": [
+      "Credit Card",
+      "Debit Card (with additional holder verification)"
+    ],
+    "cancellation_policy": {
+      "free_cancellation_hours": 24,
+      "late_cancellation_fee": 50
+    }
+  }
+}
+
