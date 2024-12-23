@@ -20,7 +20,7 @@ export default function Sidebar() {
         </button>
       </SheetTrigger>
       <SheetContent side="left" className="bg-balck w-[300px] sm:w-[400px]">
-        <SheetTitle className="text-left mb-4">Navigation Menu</SheetTitle>
+        <SheetTitle className="text-white text-left mb-4">Navigation Menu</SheetTitle>
         <nav className="flex flex-col gap-4">
           {menuItems.map((item) => (
             <a

@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import Carcard from './carcard'
 import SearchBar from './search'
+import Main from './main'
 
 const Carlist = () => {
   const [searchTerm, setsearchTerm] = useState('')
@@ -34,6 +35,7 @@ const Carlist = () => {
 
   return (
     <>
+      {rentcar.length > 0 && <Main car={rentcar[0]} />}
       <div className="bg-gray-50 py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div>
@@ -49,9 +51,7 @@ const Carlist = () => {
                     <Carcard key={car.id} car={car} />
                   ))}
                 </div>
-              )
-            }
-            
+              )}
         </div>
       </div>
     </>
